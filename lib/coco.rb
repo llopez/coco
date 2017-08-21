@@ -1,5 +1,5 @@
 require "coco/version"
+require "coco.bundle"
 
 module Coco
-  # Your code goes here...
 end

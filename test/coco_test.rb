@@ -5,7 +5,7 @@ class CocoTest < Minitest::Test
     refute_nil ::Coco::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_it_has_magic_module
+    assert ::Coco.const_defined?(:Magic)
   end
 end
