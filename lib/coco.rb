@@ -1,5 +1,5 @@
 require "coco/version"
-require "coco.bundle"
+require "osx_coco"
 
 module Coco
 end

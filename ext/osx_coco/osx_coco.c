@@ -4,10 +4,10 @@
 VALUE Coco = Qnil;
 VALUE Magic = Qnil;
 
-void Init_coco();
+void Init_osx_coco();
 VALUE method_coco_magic_sum(VALUE self, VALUE a, VALUE b);
 
-void Init_coco() {
+void Init_osx_coco() {
   Coco = rb_define_module("Coco");
   Magic = rb_define_module_under(Coco, "Magic");
   rb_define_singleton_method(Magic, "sum", method_coco_magic_sum, 2);
